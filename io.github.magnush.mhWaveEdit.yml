@@ -13,7 +13,8 @@ finish-args:
   - --socket=pulseaudio
   
 modules:
-- shared-modules/gtk2/gtk2.json 
+- shared-modules/gtk2/gtk2.json
+- shared-modules/gtk2/gtk2-common-themes.json
     
 - name: mhwaveedit
   cleanup: 
