@@ -1,27 +1,13 @@
-# Flathub
+# mhWaveEdit
 
-Flathub is the central place for building and hosting Flatpak builds.
+**mhWaveEdit** is a graphical program for editing sound files
 
-Using the Flathub repository
-----------------------------
+MhWaveEdit can play and edit sound files like .wav, .mp3, .ogg. It is intended to be user-friendly and robust. It does not require a fast computer. It supports effects like: fade in/out, Normalize, Volume adjust/fade, convert sample rate, convert sample format, byte swap, mix to mono, add channel, map channels, combine channels, speed adjustment, pipe through program.
 
-To install applications that are hosted on Flathub, use the following:
+To install and run mhWaveEdit, use the following:
 ```
 flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.gnome.Recipes
+flatpak install flathub io.github.magnush.mhWaveEdit
+flatpak run io.github.magnush.mhWaveEdit
 ```
 
-To install applications from the beta branch, use the following:
-```
-flatpak remote-add flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
-flatpak install flathub-beta org.godotengine.Godot
-```
-
-For more information and more applications see https://flathub.org
-
-Contributing to Flathub
------------------------
-
-For information on creating packages or reporting issues please see the [contributing page](/CONTRIBUTING.md).
-
-***Note:*** *this repository is not for reporting issues related to the flathub.org website itself or contributing to its development. For that, go to https://github.com/flathub/website*
